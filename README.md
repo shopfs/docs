@@ -29,7 +29,7 @@
 
 - Once bought you come to the explorer and download it any time once you provide your digital signature.
 
-### Subscriptiona
+### Subscriptions
 
 - This is perphaps the most interesting thing that we have introduced on our platform which caters to both the seller's and buyer's need.
 
