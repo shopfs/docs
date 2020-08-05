@@ -79,12 +79,7 @@ module.exports = {
                     homePageId: "introduction",
                     sidebarPath: require.resolve("./sidebars.js"),
                     editUrl:
-                        "https://github.com/facebook/docs/edit/master/website/"
-                },
-                blog: {
-                    showReadingTime: true,
-                    editUrl:
-                        "https://github.com/shopfs/docs/edit/master/website/blog/"
+                        "https://github.com/shopfs/docs/edit/master/"
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css")
