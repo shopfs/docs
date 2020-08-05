@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'ShopFS docs',
+  tagline: 'Decentralized Data Marketplace',
+  url: 'https://shopfs.github.io',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon.png',
+  organizationName: 'shopfs', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ShopFS Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'shopFS Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/shopfs/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -71,12 +71,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/shopfs/docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ShopFS, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -87,15 +87,13 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/facebook/docs/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/shopfs/docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,3 +1,8 @@
+---
+id: docs
+title: All Docs
+sidebar_label: All Docs
+---
 # Shop FS
 
 ## Introduction
