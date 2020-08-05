@@ -2,14 +2,14 @@ module.exports = {
   title: 'Shop FS',
   tagline: 'Decentralized Data Marketplace',
   url: 'https://shopfs.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
   organizationName: 'shopfs', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'ShopFS Docs',
+      title: '',
       logo: {
         alt: 'shopFS Logo',
         src: 'img/logo.svg',
@@ -21,9 +21,8 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/shopfs/docs',
+          href: 'https://github.com/shopfs',
           label: 'GitHub',
           position: 'right',
         },
@@ -65,10 +64,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/shopfs',
