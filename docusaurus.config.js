@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'ShopFS docs',
+  title: 'Shop FS',
   tagline: 'Decentralized Data Marketplace',
   url: 'https://shopfs.github.io',
   baseUrl: '/docs/',
@@ -21,7 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/shopfs/docs',
           label: 'GitHub',
@@ -71,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/shopfs/docs',
+              href: 'https://github.com/shopfs',
             },
           ],
         },
@@ -85,7 +85,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'introduction',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/facebook/docs/edit/master/website/',
