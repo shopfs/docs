@@ -39,8 +39,12 @@ module.exports = {
                             to: "docs/"
                         },
                         {
-                            label: "Tech Stack",
-                            to: "docs/techstack/"
+                            label: "Usage",
+                            to: "docs/usage/"
+                        },
+                        {
+                            label: "Support",
+                            to: "docs/support/"
                         }
                     ]
                 },
